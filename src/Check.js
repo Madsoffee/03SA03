@@ -2,6 +2,7 @@ import React from 'react';
 import './Check.css';
 import Event from './Event';
 import App from './App'
+
 class Check extends React.Component {
     render() {
         //let count_end = this.props.check_count > 5 ? "Game Over" : "Counter : " + this.props.check_count;
