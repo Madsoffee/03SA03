@@ -6,7 +6,7 @@ import Start from './Start'
 import _ from 'lodash';
 import profile from './profile.jpg'
 
-const message = 'มังกร'
+const message = 'Chicken'
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
   let chars = _.shuffle(Array.from(word))
@@ -53,9 +53,9 @@ class App extends React.Component {
     })
   }
   render() {
-    let check = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>เริ่มเกมใหม่</h1></button>;
-    let ans = this.state.completed === false ? '' : <h3 className="ans">คำตอบคือ {message}</h3>;
-    let checks = this.state.completed === false ? '' : <h1 className="win">คุณชนะ</h1>;
+    let check = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>Play again!</h1></button>;
+    let ans = this.state.completed === false ? '' : <h3 className="ans">Answer {message}</h3>;
+    let checks = this.state.completed === false ? '' : <h1 className="win">You win!</h1>;
     //let count_end = this.state.counter > 3 ? "Game Over" : "Counter : " + this.state.counter;
 
     return (
@@ -71,7 +71,7 @@ class App extends React.Component {
                 <div className="text1"><h1 className="text">LAB:3SA03   </h1></div>
                 <div className="click">
                   <div className="box-myname">
-                    <h3 className="text">ผู้เล่น : อุสมาน </h3>
+                    <h3 className="text">Player : Madsoffee YK. </h3>
                   </div>
                 </div>
               </div>
@@ -90,8 +90,8 @@ class App extends React.Component {
                 ))
               }
               <div className="box">
-                <h1 className="text">เลือก</h1>
-                <h1 className="text">คุณสามารถเล่นได้ 3 ครั้ง</h1>
+                <h1 className="text">Choose</h1>
+                <h1 className="text">You can play 5 times.</h1>
                 {
                   Array.from(this.state.guess).map((x, y) => (
                     <Event
@@ -114,7 +114,7 @@ class App extends React.Component {
             </div>
             <div className="center-text">
               <button className="button-show" onClick={this.give_ups}>ซ่อน</button>
-              <h3>{this.state.give_up === true ? 'คำตอบ : โหมดสัตว์' : ''}</h3>
+              <h3>{this.state.give_up === true ? ' Hint : Animals' : ''}</h3>
             </div>
           </div>
         </div>

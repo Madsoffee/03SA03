@@ -7,7 +7,7 @@ function Start() {
     <div className="one">
       <div className="row">
         <h1 className="text-head"></h1>
-        <div><h1 className="color">เกมใบ้คำ พัฒนาโดย React</h1></div>
+        <div><h1 className="color">Game with React</h1></div>
       </div>
     </div>
   );
