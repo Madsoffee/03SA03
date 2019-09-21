@@ -19,6 +19,7 @@
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     border-radius: 12px;
 }
+
 .button55{
     background-color: white; 
     border: none;
@@ -38,11 +39,13 @@
     font-size: 350%;
 
 }
+
 .color{
     color: rgb(0, 0, 0);
     font-size: 350%;
     margin-left: 10px;
 }
+
 .row{
     display: flex;
     flex-direction: row;
