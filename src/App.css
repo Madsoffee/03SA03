@@ -38,7 +38,7 @@ body{
   text-align: center;
   border-bottom-color: #273746;
   text-shadow: 1 4px 8px 0 rgba(31, 228, 47, 0.2);
-  
+
 }
 .text1{
   box-sizing: border-box;
@@ -53,8 +53,6 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
-
 }
 
 
