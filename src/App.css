@@ -6,31 +6,17 @@ body{
   background: rgba(0, 234, 255, 0.534);
   display: block;
   margin: 0 auto;
-  width: 21.5cm;
-  height: 30.7cm; 
-  margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(245, 16, 16, 0.5);
+  width: 25cm;
+  height: 22cm; 
+  margin-bottom: 2cm;
+  box-shadow: 0 0 2cm rgba(245, 16, 16, 0.5);
   
-}
-.profile{
-  width: 150px;
-  height: 150px;
-  margin: 16px 32px;
-  border-radius: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-bottom:8px solid rgba(255, 0, 0, 0.933);
-  
-}
-.profile-area{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .card {
   display: inline-block;
   text-align: center;
   width: 3em;
-  font-size: 2em;
+  font-size: 2.33em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 0.3em;
   user-select: none;
@@ -52,7 +38,6 @@ body{
   text-align: center;
   border-bottom-color: #273746;
   text-shadow: 1 4px 8px 0 rgba(31, 228, 47, 0.2);
-  
   
 }
 .text1{

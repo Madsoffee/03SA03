@@ -65,7 +65,7 @@ class App extends React.Component {
         </div>
         <div className="first">
           <div className="second">
-            <div className="profile-area"><img className="profile" src={profile}></img></div>
+            <div ><h1> <br></br></h1></div>
             <div className="center-box">
               <div className="center-text">
                 <div className="text1"><h1 className="text">LAB:3SA03   </h1></div>
